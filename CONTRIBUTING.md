@@ -1,6 +1,6 @@
 ---
 layout: default
----
+---PaymentACK messages larger than 11 MB bytes should be rejected by the wallet application, to mitigate denial-of-service attacks. This is larger than the limits on Payment and PaymentRequest messages as PaymentACK contains a full Payment message within it.
 
 # Contributing to Open Source Guides
 
